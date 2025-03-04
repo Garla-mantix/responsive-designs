@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 6000px) {
     body {
         background-color: black;
-        height: 100vh;
+        max-height: 100vh;
         min-width: 100%;
     }
     
@@ -102,7 +102,7 @@
     
     .fa-arrow-down  {
         font-size: 22px;
-        margin-top: 20em;
+        margin-top: 15em;
         color: grey;
         font-size: 20px;
     }
