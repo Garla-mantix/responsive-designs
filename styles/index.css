@@ -184,6 +184,10 @@
 
       /* ------------ Header (Small screen) ------------- */
 
+    .header-container {
+        padding-top: 1.5em;
+    }
+
     .navbar ul {
         display: none;
     }
