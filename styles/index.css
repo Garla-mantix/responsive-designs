@@ -15,7 +15,10 @@
         display: flex;
         justify-content: center;
         min-width: fit-content;
+        
     }
+
+    /* ------------ Header (BIG SCREEN) ------------- */
     
     .header-container {
         display: flex;
@@ -64,6 +67,8 @@
         color: white;
     }
     
+      /* ------------ Main content (BIG SCREEN) ------------- */
+
     .main-left {
         width: 50%;
     }
@@ -103,16 +108,27 @@
     
     .main-right {
         max-width: 50%;
-        z-index: -1;
-        
     }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1170px) {
+    .overlay {
+        background-size: 10% 10%;
+        background-image:
+          linear-gradient(to right, #5c7cfa2d 1px, transparent 2px),
+          linear-gradient(to bottom, #5c7cfa29 1px, transparent 2px);
+    }
+
+    body {
+        max-height: 100vh;
+    }
+    
     main {
         display: flex;
         flex-direction: column;
     }
+
+      /* ------------ Header (Mid Screen) ------------- */
 
     .header-container {
         display: flex;
@@ -121,10 +137,11 @@
 
     .logo {
         font-family: "Baloo 2", sans-serif;
-        
         font-weight: 700;
         font-style: bold;
     }
+
+      /* ------------ Main content (Mid screen) ------------- */
 
     .main-left {
         width: 100%;
@@ -133,7 +150,7 @@
     .main-left__container {
         justify-items: center;
         margin-left: 0px;
-        margin-top: 20%;
+        margin-top: 0em;
     }
 
     .main-left__title {
@@ -142,7 +159,7 @@
     
     .main-left__text {
         margin-top: 0px;
-        max-width: 70%;
+        max-width: 55%;
         text-align: center;
     }
 
@@ -155,15 +172,23 @@
         margin-top: 5em;
         align-self: center;
     } 
+
+    .head {
+        position: relative;
+        z-index: -1;
+    }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
+
+      /* ------------ Header (Small screen) ------------- */
+
     .navbar ul {
         display: none;
     }
 
     .menu {
         display: contents;
-       width: 100px;
+       
     }
 }
