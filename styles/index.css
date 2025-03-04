@@ -45,7 +45,7 @@
         color: blue;
     }
 
-    .menu {
+    .fa-ellipsis {
         display: none;
     }
     
@@ -100,10 +100,11 @@
         max-width: 70%;
     }
     
-    .arrow {
+    .fa-arrow-down  {
         font-size: 22px;
         margin-top: 20em;
-        color: white;
+        color: grey;
+        font-size: 20px;
     }
     
     .main-right {
@@ -163,7 +164,7 @@
         text-align: center;
     }
 
-    .arrow {
+    .fa-arrow-down  {
         display: none;
     }
     
@@ -187,8 +188,9 @@
         display: none;
     }
 
-    .menu {
+    .fa-ellipsis {
         display: contents;
-       
+        color: grey;
+        font-size: 30px;
     }
 }
