@@ -8,7 +8,9 @@
     body {
         background-color: black;
         max-height: 100vh;
-        min-width: 100%;
+        max-width: 1440px;
+        width: 100%;
+        margin: auto;
     }
     
     main {
